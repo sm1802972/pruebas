@@ -51,8 +51,8 @@ return
         <h1>LISTA DE COMPRAS</h1>
        
         <form onSubmit={e => e.preventDefault()}>
-             <input type="text" name="valor1" onChange={handleChange} onKeyUp={handleClick}/>
-             <input type="text" name="valor2" onChange={handleChang} onClickCapture={handleClick}/>
+             <input type="text" name="valor1" onChange={handleChange} onClick={handleClick}/>
+             <input type="text" name="valor2" onChange={handleChang} onClick={handleClick}/>
             <button onClick={handleClick} >agregar</button>
             </form>
             
